@@ -1,0 +1,1 @@
+This is a coin counting program using python2 and OpenCV 3.0.0
