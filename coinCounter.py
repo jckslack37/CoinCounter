@@ -59,7 +59,8 @@ for (i, c) in enumerate(cnts) :
     print(radius)
     cv2.circle(mask, (int(centerX), int(centerY)), int(radius), 255, -1)
     mask = mask[y:y + h, x:x + w]
-    if radius >  and radius < 43:
+    # thomas is the greatest ever!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    if radius > 38  and radius < 43:
         dimes = dimes + 1
 
 print('I count %d dimes' % dimes)
